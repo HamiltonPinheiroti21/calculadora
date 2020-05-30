@@ -8,7 +8,7 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <div>
     <App />
-    <h1>Calculadora</h1>
+    <h1>Hamilton</h1>
     <h1>React</h1>
     <Caclulator />
   </div>,
