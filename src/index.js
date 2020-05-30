@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Caclulator from './main/caclulator';
+import App from './App'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <div>
     <App />
-  </React.StrictMode>,
+    <h1>Calculadora</h1>
+    <h1>React</h1>
+    <Caclulator />
+  </div>,
   document.getElementById('root')
 );
 
